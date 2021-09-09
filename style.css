@@ -44,7 +44,8 @@ nav ul li a:hover{
 .menu-toggle{
     display: flex;
     flex-direction: column;
-    height: 20px; 
+    height: 15px; 
+    justify-content: space-between;
 }
 
 .menu-toggle span{
