@@ -151,8 +151,10 @@ nav ul li a:hover{
     height: 300px;
 }
 #about .container{
+    color: #3a383a;
     width: 80%;
-    margin: 30px auto;
+    margin: 0 auto;
+    padding-top: 50px;
 }
 #about .container h4{
     font-size: 1.5em;
@@ -160,7 +162,7 @@ nav ul li a:hover{
 #about .desc{
     float: left;
     font-size: 1.1em;
-    margin-top: 20px;
+    margin-top: 40px;
     width: 50%;
     text-align: justify;
 }
@@ -195,8 +197,10 @@ nav ul li a:hover{
     display: block;
 }
 #education .container{
+    color: #3a383a;
     width: 80%;
-    margin: 50px auto;
+    margin: 0 auto;
+    padding-top: 60px;
 }
 #education .container h4{
     font-size: 1.5em;
@@ -204,9 +208,9 @@ nav ul li a:hover{
 }
 #education .container .edu-box{
     display: flex;
-    justify-content: space-around;
-    width: 60%;
-    height: 100px;
+    justify-content: space-between;
+    width: 40%;
+    height: 80px;
     border-radius: 20px;
     margin: 15px auto;
     background-color: #3a383a;
@@ -214,20 +218,135 @@ nav ul li a:hover{
 #education .container .edu-box .name{
     margin-top: auto;
     margin-bottom: auto;
+    margin-left: 20px;
     display: inline;
     color: #e8e3dd;
-    font-size: 1em;
+    font-size: 0.9em;
     float: left;
 }
 #education .container .edu-box .year{
     margin-top: auto;
     margin-bottom: auto;
+    margin-right: 20px;
     display: inline;
     color: #e8e3dd;
-    font-size: 1em;
+    font-size: 0.9em;
     float: right;
 }
 
+/* EXPERIENCE */
+#experience{
+    display: block;
+}
+#experience .container{
+    color: #3a383a;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+#experience .container h4{
+    font-size: 1.5em;
+    text-align: center;
+}
+#experience .container ul .exp-box{
+    width: 80%;
+    border-radius: 20px;
+    margin: 20px auto;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #e8e3dd;
+}
+#experience .container ul .exp-box .exp-title{
+    margin: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #e8e3dd;
+}
+#experience .container ul .exp-box .exp-title h5{
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 1em;
+}
+
+#experience .container ul li{
+    margin: 5px 30px;
+    font-size: 0.9em;
+}
+
+/* SKILLS */
+#skills{
+    display: block;
+}
+#skills .container{
+    color: #3a383a;
+    width: 40%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+#skills .container h4{
+    font-size: 1.5em;
+    text-align: center;
+}
+#skills .container .skills-item{
+    display: flex;
+    justify-content: space-between;
+}
+#skills .container .skills-item2{
+    text-align: center;
+}
+#skills .container img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* CONTACT */
+#contact{
+    display: block;
+    background-color: #3a383a;
+    margin-top: 20px;
+}
+#contact .container{
+    color: #e8e3dd;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#contact .container h4{
+    font-size: 1.3em;
+    text-align: center;
+}
+#contact .container h5{
+    text-align: center;
+    font-size: 1em;
+}
+
+#contact .container .contact-info{
+    width: 20%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-evenly;
+}
+#contact .container .contact-info h5{
+    margin: 20px 0;
+    font-size: 1em;
+    cursor: pointer;
+}
+#contact .container .contact-info h5:hover{
+    color: white;
+    margin: 20px 0;
+    font-size: 1.1em;
+    transition: ease-in-out 0.5s;
+    cursor: pointer;
+}
+#contact a{
+    text-decoration: none;
+    color: inherit;
+}
+#contact a::after{
+    text-decoration: none;
+}
 /* Responsive Breakpoint */
 /* Ukuran tablet */
 @media screen and (max-width: 768px){
