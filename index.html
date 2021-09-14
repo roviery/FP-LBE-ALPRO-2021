@@ -11,25 +11,86 @@
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Urbanist&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav>
- 
-        <div class="title">
-            <h4>Nathanael Roviery</h4>
-        </div>
+    <div class="nav_parent">
+        <nav>
+            <div class="title">
+                <h4>Nathanael Roviery</h4>
+            </div>
 
-        <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Education</a></li>
-            <li><a href="">Experience</a></li>
-            <li><a href="">Skills</a></li>
-            <li><a href="">Contact</a></li>
-        </ul>
+            <ul>
+                <li><a href="#role">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="">Experience</a></li>
+                <li><a href="">Skills</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
 
-        <div class="menu-toggle">
-            <span></span>
-            <span></span>
-            <span></span>
+            <div class="menu-toggle">
+                <input type="checkbox"/>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </div>
+
+    <div class="home">
+        <img src="ny.jpg" id="bg">
+        <img src="profile_picture.png" id="pp">
+        <h4>Nathanael Roviery</h4>
+        <h5 id="role">STUDENT &bullet; ANDROID DEVELOPMENT TRAINEE &bullet; MOBILE APP ENTHUSIAST</h5>
+    </div>
+    <div id="about">
+        <div class="container">
+            <h4>ABOUT</h4>
+            <div class="desc">
+            <p>I'm a student at Institut Teknologi Sepuluh Nopember. Mobile App enthusiast since 2021 and
+                very passionate in Android. I'm currently studying Android Development using Kotlin.
+            </p>
+            <p class="quotes">
+                There is no bad technology, only bad users - Nathanael Roviery
+            </p>
+            </div>
+
+            <div class="biodata">
+                <div class="bio-info">
+                    <h5>Biodata</h5>
+                    <ul>
+                        <li>Full Name   : Nathanael Roviery</li>
+                        <li>Place & Date of Birth   : Jakarta, 8 June 2002</li>
+                        <li>Major   : Informatics</li>
+                        <li>Hobby   : Games,Music, Watch Movies/TV Seriesm</li>
+                        <li>MBTI    : INFJ-A</li>
+                    </ul>
+                </div>
+            </div>
         </div>
-    </nav>
+    </div>
+
+    <div id="education">
+        <div class="container">
+            <h4>EDUCATION</h4>
+            <div class="edu-box">
+                <h5 class="name">SD Galatia</h5>
+                <h5 class="year">2008-2014</h5>
+            </div>
+            <div class="edu-box">
+                <h5 class="name">SMPK Penabur Harapan Indah</h5>
+                <h5 class="year">2014-2017</h5>
+            </div>
+            <div class="edu-box">
+                <h5 class="name">SMAN 4 Kota Bekasi</h5>
+                <h5 class="year">2007-2020</h5>
+            </div>
+            <div class="edu-box">
+                <h5 class="name">Institut Teknologi Sepuluh Nopember</h5>
+                <h5 class="year">2020-Present</h5>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
 </body>
 </html>
