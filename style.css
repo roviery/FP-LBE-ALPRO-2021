@@ -147,8 +147,7 @@ nav ul li a:hover{
 
 /*ABOUT*/
 #about{
-    width: 100vw;
-    height: 300px;
+    display: block;
 }
 #about .container{
     color: #3a383a;
@@ -159,39 +158,34 @@ nav ul li a:hover{
 #about .container h4{
     font-size: 1.5em;
 }
-#about .desc{
-    float: left;
-    font-size: 1.1em;
-    margin-top: 40px;
+#about .container .abt-box{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+#about .container .abt-box .abt-desc{
     width: 50%;
     text-align: justify;
 }
-#about .quotes{
-    font-size: 0.9em;
-    margin-top: 55px;
-    font-style: italic;
+#about .container .abt-box .abt-desc .quotes{
+    margin-top: 30px;
 }
-#about .biodata{
-    background-color: #e8e3dd;
-    float: right;
-    margin-top: 20px;
+#about .container .abt-box .abt-biodata{
     width: 40%;
     border-radius: 20px;
+    background-color: #e8e3dd;
+    padding: 20px;
 }
-#about .bio-info{
-    width: 90%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 20px;
+#about .container .abt-box .abt-biodata h5{
+    border-radius: 20px;
+    background-color: #e8e3dd;
+    font-size: 1.2em;
 }
-#about .biodata .bio-info h5{  
-    font-size: 1.1em;
-}
-#about ul li{
-    margin-top: 10px;
+#about .container .abt-box .abt-biodata li{
     list-style: none;
+    background-color: #e8e3dd;
+    max-lines: 2;
 }
-
 /* EDUCATION */
 #education{
     display: block;
@@ -353,7 +347,18 @@ nav ul li a:hover{
     nav ul{
         width: 50%;
     }
-    
+    #about .container h4{
+        text-align: center;
+    }
+    #about .container .abt-box{
+        flex-direction: column;
+    }
+    #about .container .abt-desc{
+        margin: 10px auto;
+    }
+    #about .container .abt-biodata{
+        margin: 10px auto;
+    }
 }
 
 /* Ukuran mobile */
