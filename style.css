@@ -176,13 +176,9 @@ nav ul li a:hover{
     width: 40%;
     border-radius: 20px;
     background-color: #e8e3dd;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 20px;
 }
 #about .container .abt-box .abt-biodata h5{
-    margin-bottom: 10px;
     border-radius: 20px;
     background-color: #e8e3dd;
     font-size: 1.2em;
@@ -279,7 +275,7 @@ nav ul li a:hover{
 }
 #skills .container{
     color: #3a383a;
-    width: 50%;
+    width: 40%;
     margin: 0 auto;
     padding-top: 50px;
 }
@@ -388,5 +384,8 @@ nav ul li a:hover{
     }
     .menu-toggle{
         display: flex;
+    }
+    #education .container .edu-box{
+        width: 70%;
     }
 }
